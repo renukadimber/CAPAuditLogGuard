@@ -1,0 +1,21 @@
+{
+  "requires": {
+    "[hybrid]": {
+      "db": {
+        "binding": {
+          "type": "cf",
+          "apiEndpoint": "https://api.cf.eu10.hana.ondemand.com",
+          "org": "Bristlecone, Inc._btp-demos-j7j6cefz",
+          "space": "AuditLogManagement",
+          "instance": "auditLogManagementApplication-db",
+          "key": "auditLogManagementApplication-db-key",
+          "resolved": false
+        },
+        "kind": "hana",
+        "vcap": {
+          "name": "db"
+        }
+      }
+    }
+  }
+}

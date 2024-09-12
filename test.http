@@ -1,0 +1,8 @@
+###
+GET  http://localhost:4004/catalog/getData
+
+###
+GET  http://localhost:4004/catalog/subaccountAuditLogServiceDetails
+
+###
+GET  http://localhost:4004/catalog/zauditLogs?$count=true&$select=dateTime,log_statement,message_uuid,subaccount&$skip=0&$top=30
